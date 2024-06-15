@@ -27,7 +27,7 @@ for element in dict:
   else:
     tts = gTTS(str(dict[element].strip('[]').replace("'","")))
     try:
-        tts.save('audio_samples/' + 'sample%s.mp3' % element) # gTTS is creating mp3 files for data that is , , ,  which cannot reproduce anything already. find a way to delete them
+        tts.save('audio_samples/' + 'sample%s.mp3' % element)
     except AssertionError:
       pass
 

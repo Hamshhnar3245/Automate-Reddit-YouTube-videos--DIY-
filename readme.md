@@ -4,7 +4,7 @@
 
 Welcome to a stable public release of my RYTauto work. This repository will show you how to automate videos with your system yourself with minimal investment.
 
-This is running in a medium-end pc so results could be different (16gb RAM | Intel® Core™ 17-13700H 3.7-5.0GHz | NVIDIA® RTX 4000 series) and the project will run in all systems with Windows OS 
+This is running in a medium-end pc (16gb RAM | Intel® Core™ 17-13700H 3.7-5.0GHz) so results could be different and the project will run in all systems with Windows OS 
 
 I left some tips on how to do it with MacOS, but I haven't fully completed the project in this OS, so i'll say those are clues instead of tips.
 
