@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Welcome to a stable release of my RYTauto work. This repository will show you how to automate videos with your system yourself with minimal investment.
+Welcome to a stable public release of my RYTauto work. This repository will show you how to automate videos with your system yourself with minimal investment.
 
-This is running in a medium-end pc so results could be different (16gb RAM | Intel® Core™ 17-13700H 3.7-5.0GHz | NVIDIA® RTX 4000 series) and the project wil run in all systems with Windows OS 
+This is running in a medium-end pc so results could be different (16gb RAM | Intel® Core™ 17-13700H 3.7-5.0GHz | NVIDIA® RTX 4000 series) and the project will run in all systems with Windows OS 
 
 I left some tips on how to do it with MacOS, but I haven't fully completed the project in this OS, so i'll say those are clues instead of tips.
 
@@ -18,11 +18,15 @@ You wont have any problems with following all these steps on Windows.
 Virtual environments are not portable: you can install localy but it's not recomended. So if you us a venv, they will work for the operating system where you will run the project.
 
 If you want to increase the comments, posts, etc. per video, you need to have in mind that Reddit offers free 60 API calls per minute.
+- to enable API call terminal output: https://stackoverflow.com/questions/76529477/is-there-a-way-to-track-api-calls-through-praw
 
 Automation in Windows OS is done using the task scheduler. I will leave some notes in the code on what code runs in the terminal so automation works properly.
 
 ImageMagick (for the MoviePy part) is not strictly required, only if you want to write texts. It can also be used as a backend for GIFs but you can do GIFs with MoviePy without ImageMagick.
-- Once you have installed it, ImageMagick will be automatically detected by MoviePy, except on Windows !. Windows user, before installing MoviePy by hand, go into the moviepy/config_defaults.py file and provide the path to the ImageMagick binary called magick. It should look like this: ```IMAGEMAGICK_BINARY = "C:\\Program Files\\ImageMagick_VERSION\\magick.exe"```
+- Once you have installed it, ImageMagick will be automatically detected by MoviePy, except on Windows. 
+- Windows user, before installing MoviePy by hand, go into the moviepy/config_defaults.py file and provide the path to the ImageMagick binary called magick. It should look like this: ```IMAGEMAGICK_BINARY = "C:\\Program Files\\ImageMagick_VERSION\\magick.exe"```
+
+Check PRAW, Google Cloud documentation for more features of the APIs.
 
 ## How to run the script
 0. Install all packages: check all py files for packages needed. 
