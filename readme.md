@@ -8,6 +8,8 @@ This is running in a medium-end pc (16gb RAM | Intel® Core™ 17-13700H 3.7-5.0
 
 I left some tips on how to do it with MacOS, but I haven't fully completed the project in this OS, so i'll say those are clues instead of tips.
 
+Here is a video on how I did it: https://youtu.be/vUBntX8b9qk?si=hqQYIFa1m0UKkTVu
+
 ## Getting Started
 
 If running code in MacOS, don't forget to install HomeBrew.
