@@ -44,6 +44,6 @@ Check PRAW, Google Cloud documentation for more features of the APIs.
 
 ## Thank you
 
-Send me a message if assistance is needed. Thanks for checking my project out!
+Send me a message for assistance. Thanks for checking my project out!
 
 Aaron Arauco C.
